@@ -1,38 +1,128 @@
+
+
 .App {
-  text-align: center;
+  height: 868px;
+width: 550px;
+margin: auto;
+border-radius: 0px;
+background: #23252C;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app_main{
+  height: 399px;
+  width: 317px;
+  margin: 0px auto;
+  border-radius: 0px;
+  background: #1A1B21;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-items: center;
+  
+}
+.app_main > h2 {
+  font-family: inter, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #FFFFFF;
+  padding-top: 20px;
+}
+.app_main > h5 {
+font-size: 15px;
+font-weight: 400;
+color:#F3BF99;
+}
+.app_main > p {
+  font-size: 10px;
+  color: #FFFFFF;
+  padding: 15px 0px;
+}
+
+.button {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.button  button {
+  height: 34px;
+width: 115px;
+border-radius: 6px;
+border-style: none;
+display: flex;
+align-items: center;
+justify-content: center ;
+}
+.button a {
+  text-decoration: none;
+}
+button  svg {
+  margin-right: 7px;
+}
+.button_LinkedIn {
+  background: #5093E2;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.button_email {
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-header {
+  height: 317px;
+  width: 317px;
+  left: 116px;
+  top: 44px;
+  background: url('./myprofile.jpg');
+  background-repeat: no-repeat;
+  background-position: 40% 20%;
+border-radius: 10px 10px 0px 0px;
+margin: auto;
 }
+
+.about {
+
+  width: 250px;
+  margin: 20px auto;
+  color: white;
+ 
+}
+.about >p {
+  padding-top: 5px;
+  font-size: 13px;
+  font-weight: 50;
+  font-size: 10px;
+  line-height: 18px;
+
+}
+.Interests {
+  width: 250px;
+  margin: 10px auto;
+  color: white;
+}
+.Interests > p {
+  padding-top: 5px;
+  font-size: 13px;
+  font-weight: 50;
+  font-size: 10px;
+  line-height: 18px;
+}
+.footer {
+  height: 64px;
+width: 317px;
+margin: auto;
+background: #161619;
+border-radius: 0px 0px 10px 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footer a {
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+.footer svg {
+  margin: 0px 10px;
+}
+
+
